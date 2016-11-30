@@ -1,0 +1,66 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/frame_container">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Node"
+        android:textColor="#00695c"
+        android:background="@android:color/transparent"
+        android:id="@+id/pushNodeButton"
+        android:layout_gravity="left|bottom" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Value"
+        android:textColor="#00695c"
+        android:background="@android:color/transparent"
+        android:id="@+id/searchButton"
+        android:layout_gravity="right|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Root"
+        android:textColor="#00695c"
+        android:background="@android:color/transparent"
+        android:id="@+id/changeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Node"
+        android:textColor="#00695c"
+        android:background="@android:color/transparent"
+        android:id="@+id/deleteButton"
+        android:layout_gravity="center|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="#00695c"
+        android:background="@android:color/transparent"
+        android:id="@+id/Reset_ButtonButton"
+        android:layout_gravity="right|top" />
+
+
+            <com.example.roy.treevisualization.RenderView
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal|top"/>
+
+
+</FrameLayout>
+
